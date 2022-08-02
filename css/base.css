@@ -1,5 +1,5 @@
 :root {
-/*PALETA DE CORES*/
+  /*PALETA DE CORES*/
   --branco: #fff;
   --azul-claro: #dfe3e5;
   --vermelho-forte: #b72e2e;
@@ -16,8 +16,8 @@
   --planos-cartao-start: #56ccf2;
   --planos-cartao-ultra: #b04cd9;
   --planos-cartao-mega: #e33b3b;
-  
-/*FONTES*/
+
+  /*FONTES*/
   --montserrat: 'Montserrat', sans-serif;
   --opensans: 'Open Sans', sans-serif;
 }
@@ -41,4 +41,11 @@ body {
   padding: 1rem 2rem;
   border: 1px solid var(--branco);
   border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
 }
